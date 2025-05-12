@@ -1,20 +1,14 @@
-# THOR Plugin Template
+# ZIP Parser Plugin for THOR
 
-## Description
+### Description
 
-This repository contains a template for creating THOR plugins.
+This plugin parses ZIP files encountered by THOR
+and passes the extracted files back to THOR for further analysis.
 
-The template includes a basic structure for a plugin, as well as GitHub actions for validation.
+### Usage
 
-For more information about THOR plugins and how to write and use them, see [the plugin documentation](https://github.com/NextronSystems/thor-plugin/).
+This plugin is not intended for actual use, since THOR already contains
+a built-in ZIP parser.
 
-## Usage
-
-To create a new plugin based on this template, first select `thor-plugins/template` as the template repository when creating a new repository on GitHub.
-
-Then, make sure to adjust the following files:
-
-- `go.mod`: Update the module name to match your plugin's name.
-- `README.md`: Update the description and usage instructions for your plugin.
-- `metadata.yml`: Update the metadata for your plugin, including the name, version, and description.
-- `plugin.go`: Update the plugin code to implement the desired functionality.
+It is an example to show how to write a plugin that parses a file format
+and passes the extracted files back to THOR.
